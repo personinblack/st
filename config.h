@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "scientifica:size=11";
-static char *font2[] = { "Symbola:size=11" };
+static char *font = "scientifica:size=21";
+static char *font2[] = { "Symbola:size=21" };
 static int borderpx = 20;
 
 /*
