@@ -15,7 +15,6 @@ url=https://st.suckless.org
 source=(https://dl.suckless.org/$pkgname/$pkgname-$pkgver.tar.gz
         https://st.suckless.org/patches/visualbell2/st-visualbell2-basic-2020-05-13-045a0fa.diff
         https://st.suckless.org/patches/alpha/st-alpha-0.8.2.diff
-        https://st.suckless.org/patches/hidecursor/st-hidecursor-0.8.3.diff
         https://st.suckless.org/patches/w3m/st-w3m-0.8.3.diff
         https://st.suckless.org/patches/font2/st-font2-20190416-ba72400.diff
         terminfo.patch
@@ -23,7 +22,6 @@ source=(https://dl.suckless.org/$pkgname/$pkgname-$pkgver.tar.gz
 sha256sums=('f36359799734eae785becb374063f0be833cf22f88b4f169cd251b99324e08e7'
             '169daeac5a84164aa0e7adcbc9535c9a364f766115fc672e54242bc8e834e415'
             '9c5b4b4f23de80de78ca5ec3739dc6ce5e7f72666186cf4a9c6b614ac90fb285'
-            '31bb2d8f2a297ec8854d990cc923f813604e3cbc3265432e0078b73b2e5614dd'
             '8bd6fbd4c0a096c67a4a5f68585a66c93f0085b6ddea853a321b9be7316f91b3'
             '7279c787dba23d72a8a0a4613c0917e03d0087f0254f56a530cd9c521857d20b'
             'f9deea445a5c6203a0e8e699f3c3b55e27275f17fb408562c4dd5d649edeea23'
