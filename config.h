@@ -7,7 +7,7 @@
  */
 static char *font = "scientifica:size=21";
 static char *font2[] = { "Symbola:size=21" };
-static int borderpx = 4;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -103,37 +103,38 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1.0;
 
 /*
  * Terminal colors (16 first used in escape sequence)
+ * colorscheme: dkeg - citystreets
  *
  * black, red, green, yellow, blue, magenta, cyan, white
  */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#282224",
-	"#DD4C46",
-	"#649154",
-	"#f49d3e",
-	"#64ACC4",
-	"#85608C",
-	"#F2A2B7",
-	"#8b8c8c",
+	"#201e24",
+	"#2d2b30",
+	"#3f3d40",
+	"#413c3e",
+	"#423e41",
+	"#4e4a4b",
+	"#6e6765",
+	"#837e81",
 
 	/* 8 bright colors */
-	"#595450",
-	"#dd403a",
-	"#649154",
-	"#f49d3e",
-	"#459bb7",
-	"#85608C",
-	"#f2bac9",
-	"#fff3cd",
+	"#837c78",
+	"#89827d",
+	"#a7a099",
+	"#c2bec1",
+	"#c3bcb2",
+	"#cbc5ba",
+	"#e3ddd2",
+	"#efe8dc",
 
-	[255] = 0,
-        "#fff3cd",
-        "#0D0E0E"
+  [255] = 0,
+  "#d3d3d3",
+  "#000000",
 
 	/* more colors can be added after 255 to use with DefaultXX */
 };
@@ -145,7 +146,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 256;
 unsigned int defaultbg = 257;
-unsigned int defaultcs = 11;
+unsigned int defaultcs = 5;
 static unsigned int defaultrcs = 0;
 
 /*
