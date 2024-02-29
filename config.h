@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "VictorMono NFM:size=16";
-static char *font2[] = { "Symbola:size=16" };
+static char *font = "VictorMono NFM:size=10";
+static char *font2[] = { "Symbola:size=10" };
 static int borderpx = 0;
 
 /*
