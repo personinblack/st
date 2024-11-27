@@ -14,7 +14,6 @@ depends=(libxft)
 url=https://st.suckless.org
 source=(https://dl.suckless.org/$pkgname/$pkgname-$pkgver.tar.gz
         https://st.suckless.org/patches/visualbell2/st-visualbell2-basic-2020-05-13-045a0fa.diff
-        https://st.suckless.org/patches/alpha/st-alpha-20220206-0.8.5.diff
         https://st.suckless.org/patches/w3m/st-w3m-0.8.3.diff
         https://st.suckless.org/patches/font2/st-font2-0.8.5.diff
         http://st.suckless.org/patches/copyurl/st-copyurl-multiline-20230406-211964d.diff
@@ -22,7 +21,6 @@ source=(https://dl.suckless.org/$pkgname/$pkgname-$pkgver.tar.gz
         README.terminfo.rst)
 sha256sums=('f36359799734eae785becb374063f0be833cf22f88b4f169cd251b99324e08e7'
             '169daeac5a84164aa0e7adcbc9535c9a364f766115fc672e54242bc8e834e415'
-            '42e4803ce2a67835f7e533a707a8a28e3804a26ced163145108970b9aee5fb81'
             '8bd6fbd4c0a096c67a4a5f68585a66c93f0085b6ddea853a321b9be7316f91b3'
             '2ea18a883a7f2ee925b8b04b8bef97e3c1be62d6d31367574467570768a7a4f1'
             '202774fe9c7160a88685588138af1b259b2813d46b15fa8d9a9dda1e288e8988'

@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "VictorMono NFM:size=10";
+static char *font = "cozette";
 static char *font2[] = { "Symbola:size=10" };
-static int borderpx = 0;
+static int borderpx = 3;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -66,7 +66,7 @@ static unsigned int blinktimeout = 800;
 /*
  * thickness of underline and bar cursors
  */
-static unsigned int cursorthickness = 2;
+static unsigned int cursorthickness = 1;
 
 /*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
@@ -102,9 +102,6 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 4;
 
-/* bg opacity */
-float alpha = 1.0;
-
 /*
  * Terminal colors (16 first used in escape sequence)
  * colorscheme: dkeg - citystreets
@@ -114,23 +111,23 @@ float alpha = 1.0;
 static const char *colorname[] = {
 	/* 8 normal colors */
   "#1a1a1a",
-  "#6b6b6b",
-  "#c4c4c4",
-  "#b3b3b3",
-  "#999999",
-  "#717171",
-  "#8a8a8a",
-  "#b5cabb",
+  "#4d4d4d",
+  "#7a7a7a",
+  "#333333",
+  "#666666",
+  "#707070",
+  "#858585",
+  "#848f81",
 
 	/* 8 bright colors */
-  "#333333",
-  "#464646",
-  "#f8f8f8",
-  "#eeeeee",
-  "#7c7c7c",
+  "#999999",
+  "#a3a3a3",
   "#adadad",
-  "#c0c0c0",
-  "#99ac9e",
+  "#b8b8b8",
+  "#c2c2c2",
+  "#d1d1d1",
+  "#dedede",
+  "#c6e6bc",
 
   [255] = 0,
   "#ffffff",
