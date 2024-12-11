@@ -5,4 +5,5 @@
 /st-*.pkg.tar.xz
 /st-*.pkg.tar.zst
 /st-*.diff
+!/st-*-local.diff
 /st-*.tar.zst

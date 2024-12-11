@@ -17,6 +17,7 @@ source=(https://dl.suckless.org/$pkgname/$pkgname-$pkgver.tar.gz
         https://st.suckless.org/patches/w3m/st-w3m-0.8.3.diff
         https://st.suckless.org/patches/font2/st-font2-0.8.5.diff
         http://st.suckless.org/patches/copyurl/st-copyurl-multiline-20230406-211964d.diff
+        st-colorterm-local.diff
         terminfo.patch
         README.terminfo.rst)
 sha256sums=('6b215d4f472b21d6232f30f221117a777e24bcfee68955ddefb7426467f9494b'
@@ -24,6 +25,7 @@ sha256sums=('6b215d4f472b21d6232f30f221117a777e24bcfee68955ddefb7426467f9494b'
             '8bd6fbd4c0a096c67a4a5f68585a66c93f0085b6ddea853a321b9be7316f91b3'
             '2ea18a883a7f2ee925b8b04b8bef97e3c1be62d6d31367574467570768a7a4f1'
             '202774fe9c7160a88685588138af1b259b2813d46b15fa8d9a9dda1e288e8988'
+            '63b860f676882d3dd148f6225ffafbd54735c90171a31538f50800c12ce82478'
             'f9deea445a5c6203a0e8e699f3c3b55e27275f17fb408562c4dd5d649edeea23'
             '95be3197f7de77a0fe2e4f527202e17e910ee24e1ed6bc39beb320a1304bb7e1')
 _sourcedir=$pkgname-$pkgver
